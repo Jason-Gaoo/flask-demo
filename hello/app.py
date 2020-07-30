@@ -1,7 +1,7 @@
 #-*- coding: utf-8 -*-
 from flask import Flask
 app = Flask(__name__)
-print(app.name)
+# print(app.name)
 
 @app.route('/')
 def index():
